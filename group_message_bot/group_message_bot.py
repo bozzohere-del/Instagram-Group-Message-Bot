@@ -11,12 +11,12 @@ wait = WebDriverWait(driver, 10)
 driver.maximize_window()
 
 #fill array with responses
-response = []
+response = [i aspasia einai porni]
 driver.get('https://www.instagram.com/')
 
 #Change username and password to your username and password
-wait.until(ec.element_to_be_clickable((By.NAME, "username"))).send_keys(username)
-el = wait.until(ec.element_to_be_clickable((By.NAME, "password")))
+wait.until(ec.element_to_be_clickable((By.NAME, "penguin67903"))).send_keys(username)
+el = wait.until(ec.element_to_be_clickable((By.NAME, "woz897192")))
 el.send_keys(password)
 
 sleep(5)
@@ -25,7 +25,7 @@ el.send_keys(Keys.ENTER)
 
 sleep(5)
  #Change URL to custom message URL
-driver.get(URL)
+driver.get(https://www.instagram.com/direct/t/2354776394978901/)
 sleep(5)
 driver.find_element(By.XPATH, '/html/body/div[5]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/button[2]').click()
 sleep(5)
@@ -43,7 +43,7 @@ def page_source_update():
  f1 = open('page_source.txt', 'r')
  num = f1.read()
  #Change prompt to custom prompt that bot will respond too.
- count = num.count(prompt)
+ count = num.count(aspasia)
  return count
 
  
@@ -52,7 +52,7 @@ def message_loop(x):
  stop_command = "Stop!"
  count = x
  #Change URL to custom message URL
- driver.get(URL)
+ driver.get(https://www.instagram.com/direct/t/2354776394978901/)
  sleep(10)
  prompts = page_source_update()
 
